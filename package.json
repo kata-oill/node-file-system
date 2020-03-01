@@ -1,0 +1,21 @@
+{
+  "name": "node-system",
+  "version": "1.0.0",
+  "description": "Testowy plik do nauki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nauka",
+    "nmp",
+    "node"
+  ],
+  "author": "kataoil",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "stat-mode": "^1.0.0"
+  }
+}
