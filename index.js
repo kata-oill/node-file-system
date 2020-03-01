@@ -8,14 +8,9 @@ fs.stat('./cat.jpg', function(err, stats) {
 });
 
 fs.readdir('./instruction','utf-8', function(err, files) {
-	console.log(files);
-	files.forEach(function (file) {
-        fs.writeFile("./saved/new.txt", file, 'utf8', function(err){
-            if(err) {
-                return console.log(err);
-            }
-        });
-        console.log(file);
-      
-	});
+    fs.writeFile("./saved/new.txt", files, 'utf8', function(err){
+        if(err) {
+            return console.log(err);
+        }
+    });
 });
